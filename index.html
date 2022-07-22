@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header class="position-relative">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid" data-aos="fade-right">
+                <a class="navbar-brand logo" style="color: #2bebc8 !important;" href="#">WDR Tob Fineder</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank"
+                                href="https://discord.com/channels/408082929940430858/521410163425542165">Discord
+                                Channel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-4 col-md-5">
+                <div class="d-flex ms-5 mt-5" id="wdr" data-aos="fade-up">
+                    <div class="roleselector">
+                        <div class="blur"></div>
+                        <div class="form">
+                            <div class="mdps">
+                                <label for="mdps">MDPS</label>
+                                <input id="mdps" name="role" type="checkbox" value="MDPS /">
+                            </div>
+                            <div class="rdps">
+                                <label for="rdps">RDPS</label>
+                                <input id="rdps" name="role" type="checkbox" value="RDPS /">
+                            </div>
+                            <div class="sfrz">
+                                <label for="sfrz">SFRZ</label>
+                                <input id="sfrz" name="role" type="checkbox" value="SFRZ , ">
+                            </div>
+                        </div>
+                        <!--Radio-->
+                        <div class="radioholder">
+                            <div class="duo">
+                                <label for="duo">DUO</label>
+                                <input id="duo" name="scale" type="radio" value="DUO">
+                            </div>
+                            <div class="trio">
+                                <label for="trio">TRIO</label>
+                                <input id="trio" name="scale" type="radio" value="TRIO">
+                            </div>
+                            <div class="frman">
+                                <label for="_4man">4 MAN</label>
+                                <input id="_4man" name="scale" type="radio" value="4 MAN">
+                            </div>
+                        </div>
+                        <div class="bot-gen">
+                            <label for="scy">Scy req ?</label>
+                            <input id="scy" name="req" type="checkbox" value="Scy Req">
+                            <br>
+                            <label for="world">World :</label>
+                            <input type="number" name="world" id="world" value="510">
+                            <br>
+                            <input type="submit" id='submitPost' value="POST">
+                            <input type="reset" id='reset' value="RESET">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-4 overflow-trick">
+                <div id="msgs" class="d-flex flex-wrap flex-row row align-content-start">
+                    <!-- <h3 id="msg"><span id="dNone" class="dNone">+</span><span id="dNone scale" class="dNone"></span><span
+                        id="world"></span></h3>
+                <h3 id="err"></h3> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

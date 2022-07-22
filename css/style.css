@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+header{
+    height:100vh;
+    width: 100%;
+    background-color: #1e1f22;
+    color: #fff !important;
+}
+.navbar-brand,
+.nav-link{
+    color: #f9f9f9 !important;
+}
+.genedMsg{
+    height: 70px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    padding: 0.1rem 1.2rem;
+    box-shadow: #8080930d 0px 1px 0px, #8080930d 0px 0px 8px;
+}
+
+.genedMsg .top-trick{
+    font-size: 0.7rem;
+}
+.genedMsg h3{
+    font-size: 1rem;
+}
+#wdr{
+    left: 100px;
+    top: 100px;
+    
+}
+.roleselector{
+    position: relative;
+    padding: 1rem 2rem;
+    background-color: #0c0c0e;
+    color: #f9f9f9;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    overflow: hidden;
+
+}
+.form{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.form>div,.radioholder>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    background-color: #151618;
+    color: aliceblue;
+}
+.radioholder,.bot-gen{
+    position: relative;
+    z-index: 1;
+}
+.radioholder{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.radioholder>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submitPost,#reset{
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    border: none;
+    padding: 0.5rem .8rem;
+    box-shadow: 0 0 8px 0 hsla(0, 2%, 25%, 0.541);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.overflow-trick{
+    overflow-y: hidden;
+    position: sticky;
+    height: calc(100vh - 56px);
+}
+.overflow-trick:hover{
+    overflow-y: scroll;
+}
+.overflow-trick::-webkit-scrollbar{
+    width: 0 !important;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#msg {
+    color: #6be9c9;
+}
+
+#err {
+    color: red;
+}
+
+.dNone {
+    display: none;
+}
