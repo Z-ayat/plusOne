@@ -65,7 +65,7 @@ submitPost.addEventListener('click', function getValue() {
                                 </div>
                                 <h3 id="msg">
                                 <span>+2</span>
-                                <span>Trio Man</span>
+                                <span>Trio</span>
                                 ${result}
                                 <span id="world">World ${world}</span>
                                 <span id="scyRequired" class="dNone">Scy Required</span>
